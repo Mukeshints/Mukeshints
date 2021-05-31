@@ -1,0 +1,294 @@
+﻿/*********************  joining page  registration-form*************************/
+.registration-form {
+    height: auto;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+.registration-formheading {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+.registration-border {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 50px 0px;
+    float: left;
+    border: 1px solid #0065a4;
+}
+
+.registration-heading-h2 {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 15px 10px 15px;
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f08700;
+}
+
+
+
+.registration-heading-h3 {
+    height: auto;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 10px 15px 10px 15px;
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 600;
+    color: #fff;
+    background:#014f80;
+
+}
+
+
+
+
+.sponsor-boxsec {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+    float: left;
+}
+
+.sponsor-boxsec-psec {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 5px 0px;
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 400;
+    color: #444;
+}
+
+    .sponsor-boxsec-psec sup {
+        font-size: 15px;
+        font-weight: 400;
+        color: #f00;
+        top: -.10px!important;
+    }
+
+
+
+.sponsor-textbox {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+.sponsor-textbox-button {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    height: 38px;
+    background: linear-gradient(to right, #00a0e4 0%, #cdda03 100%);
+    border: navajowhite;
+}
+
+    .sponsor-textbox-button:hover {
+        background: linear-gradient(to right, #cdda03 0%, #00a0e4 100%);
+    }
+
+.sponsor-textbox-button2 {
+    margin: 20px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    height: 38px;
+    background: linear-gradient(to right, #f36371 0%, #f9be4d 100%);
+    border: navajowhite;
+}
+
+    .sponsor-textbox-button2:hover {
+        background: linear-gradient(to right, #f9be4d 0%, #f36371 100%);
+    }
+
+
+
+
+.sponsor-radiobutton {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 400;
+    color: #444;
+}
+
+.sponsor-textbox-dropdown {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 400;
+    color: #444;
+}
+
+
+.sponsor-boxfromcontrol {
+    padding: 6px 0px 2px 7px;
+    /* background: rgba(8, 8, 8, 0.25); */
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #aeaeae;
+    /* border-top: none; */
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    -webkit-flex-basis: 95%;
+    border-radius: 0px;
+    height: 36px;
+}
+
+    .sponsor-boxfromcontrol:focus {
+        outline: none;
+    }
+
+
+.sponsor-boxfromcontrol-dropdown {
+    padding: 1px 15px 2px 10px;
+    /* background: rgba(8, 8, 8, 0.25); */
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #aeaeae;
+    /* border-top: none; */
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    -webkit-flex-basis: 95%;
+    border-radius: 0px;
+    height: 38px;
+}
+
+    .sponsor-boxfromcontrol-dropdown:focus {
+        outline: none;
+    }
+
+.sponsor-icons {
+    margin: 0px 0px 0px 0px;
+    padding: 9px 0px 0px 9px;
+    /* top: 12px; */
+    height: 36px;
+    width: 36px;
+    /* left: 25px; */
+    color: #00a0e4;
+    position: absolute;
+    font-size: 15px;
+}
+
+select option {
+    background-color: #fff;
+    color: #444;
+}
+
+.sponsor-boxsec2 {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 5px 0px;
+    float: left;
+}
+
+
+/**********admission form***********/
+.admissionform-dow {
+    height: 500px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+/*----------------------Notification--------------------------*/
+
+.notificationpan {
+    display: none;
+    width: 100%;
+    background-color: #ff0404;
+    position: fixed;
+    top: 55px;
+    right: 30px;
+    padding: 6px 7px;
+    width: 270px;
+    height: auto;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 3px 14px 1px rgba(87, 87, 87, 0.85);
+}
+
+.closenotificationpan {
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+
+#notification {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 999999;
+}
+
+.notif-txt {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    z-index: 999999;
+    position: relative;
+}
+.aboupage-section {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 35px 0px 35px 0px;
+    float: left;
+}

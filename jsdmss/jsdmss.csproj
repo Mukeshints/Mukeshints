@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E5B8DC1-4C9C-4F58-9674-649C16C1F364}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jsdmss</RootNamespace>
+    <AssemblyName>jsdmss</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about_jaisheela_devi.aspx" />
+    <Content Include="About_us.aspx" />
+    <Content Include="animation\animate.css" />
+    <Content Include="animation\how to use s siddharth project Sepetmember.txt" />
+    <Content Include="animation\wow.js" />
+    <Content Include="App_Data\pmjsy.mdf" />
+    <Content Include="App_Data\pmjsy_log.ldf">
+      <DependentUpon>pmjsy.mdf</DependentUpon>
+    </Content>
+    <Content Include="BLOCK_COORDINATOR\css\fontawasome.css" />
+    <Content Include="BLOCK_COORDINATOR\css\lk-custom-scrollbar.css" />
+    <Content Include="BLOCK_COORDINATOR\css\style.css" />
+    <Content Include="BLOCK_COORDINATOR\css\style2.css" />
+    <Content Include="BLOCK_COORDINATOR\img\close.png" />
+    <Content Include="BLOCK_COORDINATOR\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="BLOCK_COORDINATOR\print-member-details.aspx" />
+    <Content Include="BLOCK_COORDINATOR\rmjsy-membership-form.aspx" />
+    <Content Include="BLOCK_COORDINATOR\success.aspx" />
+    <Content Include="BLOCK_COORDINATOR\User_home.aspx" />
+    <Content Include="BLOCK_COORDINATOR\view-member.aspx" />
+    <Content Include="Committee.aspx" />
+    <Content Include="Contact_us.aspx" />
+    <Content Include="Css\bootstrap.min.css" />
+    <Content Include="Css\Customize.css" />
+    <Content Include="Css\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="Css\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="Css\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Css\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Css\login_modal.css" />
+    <Content Include="Css\midea.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="donation_now.aspx" />
+    <Content Include="fancybox\blank.gif" />
+    <Content Include="fancybox\fancybox.txt" />
+    <Content Include="fancybox\fancybox_loading.gif" />
+    <Content Include="fancybox\fancybox_overlay.png" />
+    <Content Include="fancybox\fancybox_sprite.png" />
+    <Content Include="fancybox\jquery-1.8.3.js" />
+    <Content Include="fancybox\jquery.fancybox.css" />
+    <Content Include="fancybox\jquery.fancybox.js" />
+    <Content Include="fancybox\remove-resources.png" />
+    <Content Include="gallery\gallery.txt" />
+    <Content Include="gallery\jquery-1.10.2.min.js" />
+    <Content Include="gallery\simple-lightbox.min.js" />
+    <Content Include="gallery\simplelightbox.min.css" />
+    <Content Include="gallery\style.css" />
+    <Content Include="images\about_us.jpg" />
+    <Content Include="images\BMO_notifaction.jpeg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\donate\family-room.png" />
+    <Content Include="images\donate\give-a-burger.png" />
+    <Content Include="images\donate\houses.png" />
+    <Content Include="images\donate\loan.png" />
+    <Content Include="images\donate\money.png" />
+    <Content Include="images\donate\volunteer.png" />
+    <Content Include="images\footer-bg.png" />
+    <Content Include="images\gallery\gallery-a2.jpg" />
+    <Content Include="images\gallery\gallery-a5.jpg" />
+    <Content Include="images\gallery\gallery-a8.jpg" />
+    <Content Include="images\gallery\gallery-ab1.jpg" />
+    <Content Include="images\gallery\gallery-ab2.jpg" />
+    <Content Include="images\gallery\gallery-ab3.jpg" />
+    <Content Include="images\gallery\gallery-ab4.jpg" />
+    <Content Include="images\gallery\gallery-ab5.jpg" />
+    <Content Include="images\gallery\GIRL-ED.jpg" />
+    <Content Include="images\gallery\Health_De.jpg" />
+    <Content Include="images\gallery\physica_suppor.jpg" />
+    <Content Include="images\gallery\women-de.jpg" />
+    <Content Include="images\house %281%29.png" />
+    <Content Include="images\house %282%29.png" />
+    <Content Include="images\ints_logo.png" />
+    <Content Include="images\Jaisheela_Devi.jpeg" />
+    <Content Include="images\jjjjjj.jpg" />
+    <Content Include="images\krisna_kant.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\member\chand_mohan_mandal.jpg" />
+    <Content Include="images\member\kaland_nand_mandal.jpg" />
+    <Content Include="images\member\krisna_kant.jpg" />
+    <Content Include="images\member\Laksmi_devi.jpg" />
+    <Content Include="images\member\mageswar_matho.jpg" />
+    <Content Include="images\member\prinkya_kumari.jpg" />
+    <Content Include="images\member\santosh_kumar.jpg" />
+    <Content Include="images\Sansthan_Certificate.jpg" />
+    <Content Include="images\Sansthan_PANCard.jpg" />
+    <Content Include="images\slider\bg1.jpg" />
+    <Content Include="images\slider\bg3.jpg" />
+    <Content Include="images\slider\bg7.jpg" />
+    <Content Include="images\slider\bg8.jpg" />
+    <Content Include="images\slider\slide-a.jpg" />
+    <Content Include="images\slider\slide-b.jpg" />
+    <Content Include="images\slider\slide-c.jpg" />
+    <Content Include="images\slider\slide-d.jpg" />
+    <Content Include="images\user-icon.png" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\pooper.min.js" />
+    <Content Include="Legal.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="Maindmin\Add_news.aspx" />
+    <Content Include="Maindmin\add-user.aspx" />
+    <Content Include="Maindmin\calender\jquery-ui.js" />
+    <Content Include="Maindmin\calender\jqueryUI.css" />
+    <Content Include="Maindmin\css\lk-custom-scrollbar.css" />
+    <Content Include="Maindmin\css\style.css" />
+    <Content Include="Maindmin\css\style2.css" />
+    <Content Include="Maindmin\activate-user.aspx" />
+    <Content Include="Maindmin\home.aspx" />
+    <Content Include="Maindmin\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Maindmin\member-details.aspx" />
+    <Content Include="Maindmin\print-member-details.aspx" />
+    <Content Include="Maindmin\view-member.aspx" />
+    <Content Include="Maindmin\view-registration-details.aspx" />
+    <Content Include="Maindmin\view-registration.aspx" />
+    <Content Include="Maindmin\view-user.aspx" />
+    <Content Include="Member_doc\close.png" />
+    <Content Include="menu\jquery.min.js" />
+    <Content Include="menu\menu.txt" />
+    <Content Include="menu\script.js" />
+    <Content Include="menu\style.css" />
+    <Content Include="news\jquery.newsTicker.js" />
+    <Content Include="news\main.css" />
+    <Content Include="Popup-image.aspx" />
+    <Content Include="rewards\Productslider\owl.carousel.css" />
+    <Content Include="rewards\Productslider\owl.carousel.min.js" />
+    <Content Include="rewards\Productslider\owl.css" />
+    <Content Include="rewards\Productslider\script.js" />
+    <Content Include="rewards\rewards.txt" />
+    <Content Include="RMJSY\aboutus_rmjsy.aspx" />
+    <Content Include="RMJSY\animation\animate.css" />
+    <Content Include="RMJSY\animation\how to use s siddharth project Sepetmember.txt" />
+    <Content Include="RMJSY\animation\wow.js" />
+    <Content Include="RMJSY\Apply_notification.aspx" />
+    <Content Include="RMJSY\calender\jquery-ui.js" />
+    <Content Include="RMJSY\calender\jqueryUI.css" />
+    <Content Include="RMJSY\Career_apply_online.aspx" />
+    <Content Include="RMJSY\Css\Admission.css" />
+    <Content Include="RMJSY\Css\bootstrap.min.css" />
+    <Content Include="RMJSY\Css\Customize.css" />
+    <Content Include="RMJSY\Css\login_modal.css" />
+    <Content Include="RMJSY\Css\midea.css" />
+    <Content Include="RMJSY\Default_RMJSY.aspx" />
+    <Content Include="RMJSY\fancybox\blank.gif" />
+    <Content Include="RMJSY\fancybox\fancybox.txt" />
+    <Content Include="RMJSY\fancybox\fancybox_loading.gif" />
+    <Content Include="RMJSY\fancybox\fancybox_overlay.png" />
+    <Content Include="RMJSY\fancybox\fancybox_sprite.png" />
+    <Content Include="RMJSY\fancybox\jquery-1.8.3.js" />
+    <Content Include="RMJSY\fancybox\jquery.fancybox.css" />
+    <Content Include="RMJSY\fancybox\jquery.fancybox.js" />
+    <Content Include="RMJSY\fancybox\remove-resources.png" />
+    <Content Include="RMJSY\gallery\gallery.txt" />
+    <Content Include="RMJSY\gallery\jquery-1.10.2.min.js" />
+    <Content Include="RMJSY\gallery\simple-lightbox.min.js" />
+    <Content Include="RMJSY\gallery\simplelightbox.min.css" />
+    <Content Include="RMJSY\gallery\style.css" />
+    <Content Include="RMJSY\images\about_us.jpg" />
+    <Content Include="RMJSY\images\bank_of_baroda.png" />
+    <Content Include="RMJSY\images\donate\family-room.png" />
+    <Content Include="RMJSY\images\donate\give-a-burger.png" />
+    <Content Include="RMJSY\images\donate\houses.png" />
+    <Content Include="RMJSY\images\donate\loan.png" />
+    <Content Include="RMJSY\images\donate\money.png" />
+    <Content Include="RMJSY\images\donate\volunteer.png" />
+    <Content Include="RMJSY\images\footer-bg.jpg" />
+    <Content Include="RMJSY\images\footer-bg.png" />
+    <Content Include="RMJSY\images\gallery\gallery-a2.jpg" />
+    <Content Include="RMJSY\images\gallery\gallery-a5.jpg" />
+    <Content Include="RMJSY\images\gallery\gallery-a8.jpg" />
+    <Content Include="RMJSY\images\gallery\gallery-ab1.jpg" />
+    <Content Include="RMJSY\images\gallery\gallery-ab2.jpg" />
+    <Content Include="RMJSY\images\gallery\gallery-ab3.jpg" />
+    <Content Include="RMJSY\images\gallery\gallery-ab4.jpg" />
+    <Content Include="RMJSY\images\gallery\gallery-ab5.jpg" />
+    <Content Include="RMJSY\images\gallery\GIRL-ED.jpg" />
+    <Content Include="RMJSY\images\gallery\Health_De.jpg" />
+    <Content Include="RMJSY\images\gallery\physica_suppor.jpg" />
+    <Content Include="RMJSY\images\gallery\women-de.jpg" />
+    <Content Include="RMJSY\images\house %281%29.png" />
+    <Content Include="RMJSY\images\house %282%29.png" />
+    <Content Include="RMJSY\images\jjjjjj.jpg" />
+    <Content Include="RMJSY\images\lock.png" />
+    <Content Include="RMJSY\images\logo.png" />
+    <Content Include="RMJSY\images\NEW.gif" />
+    <Content Include="RMJSY\images\please_wait_small.gif" />
+    <Content Include="RMJSY\images\slider\bg1.jpg" />
+    <Content Include="RMJSY\images\slider\bg3.jpg" />
+    <Content Include="RMJSY\images\slider\bg7.jpg" />
+    <Content Include="RMJSY\images\slider\bg8.jpg" />
+    <Content Include="RMJSY\images\slider\slide-a.jpg" />
+    <Content Include="RMJSY\images\slider\slide-b.jpg" />
+    <Content Include="RMJSY\images\slider\slide-c.jpg" />
+    <Content Include="RMJSY\images\slider\slide-d.jpg" />
+    <Content Include="RMJSY\list_of_generated_posts.aspx" />
+    <Content Include="RMJSY\menu\jquery.min.js" />
+    <Content Include="RMJSY\menu\menu.txt" />
+    <Content Include="RMJSY\menu\script.js" />
+    <Content Include="RMJSY\menu\style.css" />
+    <Content Include="RMJSY\mission_and_vision.aspx" />
+    <Content Include="RMJSY\news\jquery.newsTicker.js" />
+    <Content Include="RMJSY\news\main.css" />
+    <Content Include="RMJSY\Popup-image.aspx" />
+    <Content Include="RMJSY\print-application.aspx" />
+    <Content Include="RMJSY\Registration_process.aspx" />
+    <Content Include="RMJSY\Result.aspx" />
+    <Content Include="RMJSY\slider_gallery\css\animate.min.css" />
+    <Content Include="RMJSY\slider_gallery\css\bootstrap.min.css" />
+    <Content Include="RMJSY\slider_gallery\css\fancyBox.css" />
+    <Content Include="RMJSY\slider_gallery\css\font-awesome.min.css" />
+    <Content Include="RMJSY\slider_gallery\css\style.css" />
+    <Content Include="RMJSY\slider_gallery\js\bootstrap-datepicker.min.js" />
+    <Content Include="RMJSY\slider_gallery\js\bootstrap-dropdownhover.min.js" />
+    <Content Include="RMJSY\slider_gallery\js\bootstrap.min.js" />
+    <Content Include="RMJSY\slider_gallery\js\comming-soon.js" />
+    <Content Include="RMJSY\slider_gallery\js\css3-animate-it.js" />
+    <Content Include="RMJSY\slider_gallery\js\gallery.js" />
+    <Content Include="RMJSY\slider_gallery\js\jquery.min.js" />
+    <Content Include="RMJSY\slider_gallery\js\owl.carousel.min.js" />
+    <Content Include="RMJSY\slider_gallery\js\player.min.js" />
+    <Content Include="RMJSY\slider_gallery\js\script.js" />
+    <Content Include="RMJSY\success.aspx" />
+    <Content Include="RMJSY\Yojana.aspx" />
+    <Content Include="slider_gallery\css\animate.min.css" />
+    <Content Include="slider_gallery\css\bootstrap.min.css" />
+    <Content Include="slider_gallery\css\fancyBox.css" />
+    <Content Include="slider_gallery\css\font-awesome.min.css" />
+    <Content Include="slider_gallery\css\style.css" />
+    <Content Include="slider_gallery\js\bootstrap-datepicker.min.js" />
+    <Content Include="slider_gallery\js\bootstrap-dropdownhover.min.js" />
+    <Content Include="slider_gallery\js\bootstrap.min.js" />
+    <Content Include="slider_gallery\js\comming-soon.js" />
+    <Content Include="slider_gallery\js\css3-animate-it.js" />
+    <Content Include="slider_gallery\js\gallery.js" />
+    <Content Include="slider_gallery\js\jquery.min.js" />
+    <Content Include="slider_gallery\js\owl.carousel.min.js" />
+    <Content Include="slider_gallery\js\player.min.js" />
+    <Content Include="slider_gallery\js\script.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about_jaisheela_devi.aspx.cs">
+      <DependentUpon>about_jaisheela_devi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about_jaisheela_devi.aspx.designer.cs">
+      <DependentUpon>about_jaisheela_devi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About_us.aspx.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About_us.aspx.designer.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\BlockUser.Master.cs">
+      <DependentUpon>BlockUser.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\BlockUser.Master.designer.cs">
+      <DependentUpon>BlockUser.Master</DependentUpon>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\print-member-details.aspx.cs">
+      <DependentUpon>print-member-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\print-member-details.aspx.designer.cs">
+      <DependentUpon>print-member-details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\rmjsy-membership-form.aspx.cs">
+      <DependentUpon>rmjsy-membership-form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\rmjsy-membership-form.aspx.designer.cs">
+      <DependentUpon>rmjsy-membership-form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\success.aspx.cs">
+      <DependentUpon>success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\success.aspx.designer.cs">
+      <DependentUpon>success.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\User_home.aspx.cs">
+      <DependentUpon>User_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\User_home.aspx.designer.cs">
+      <DependentUpon>User_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\view-member.aspx.cs">
+      <DependentUpon>view-member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLOCK_COORDINATOR\view-member.aspx.designer.cs">
+      <DependentUpon>view-member.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Committee.aspx.cs">
+      <DependentUpon>Committee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Committee.aspx.designer.cs">
+      <DependentUpon>Committee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact_us.aspx.cs">
+      <DependentUpon>Contact_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact_us.aspx.designer.cs">
+      <DependentUpon>Contact_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="donation_now.aspx.cs">
+      <DependentUpon>donation_now.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="donation_now.aspx.designer.cs">
+      <DependentUpon>donation_now.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legal.aspx.cs">
+      <DependentUpon>Legal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legal.aspx.designer.cs">
+      <DependentUpon>Legal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\Add_news.aspx.cs">
+      <DependentUpon>Add_news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\Add_news.aspx.designer.cs">
+      <DependentUpon>Add_news.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\add-user.aspx.cs">
+      <DependentUpon>add-user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\add-user.aspx.designer.cs">
+      <DependentUpon>add-user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\activate-user.aspx.cs">
+      <DependentUpon>activate-user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\activate-user.aspx.designer.cs">
+      <DependentUpon>activate-user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\member-details.aspx.cs">
+      <DependentUpon>member-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\member-details.aspx.designer.cs">
+      <DependentUpon>member-details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\print-member-details.aspx.cs">
+      <DependentUpon>print-member-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\print-member-details.aspx.designer.cs">
+      <DependentUpon>print-member-details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="main.Master.cs">
+      <DependentUpon>main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main.Master.designer.cs">
+      <DependentUpon>main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\view-member.aspx.cs">
+      <DependentUpon>view-member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\view-member.aspx.designer.cs">
+      <DependentUpon>view-member.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\view-registration-details.aspx.cs">
+      <DependentUpon>view-registration-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\view-registration-details.aspx.designer.cs">
+      <DependentUpon>view-registration-details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\view-registration.aspx.cs">
+      <DependentUpon>view-registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\view-registration.aspx.designer.cs">
+      <DependentUpon>view-registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\view-user.aspx.cs">
+      <DependentUpon>view-user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maindmin\view-user.aspx.designer.cs">
+      <DependentUpon>view-user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maindmin\XLWorkbook.cs" />
+    <Compile Include="My.cs" />
+    <Compile Include="Popup-image.aspx.cs">
+      <DependentUpon>Popup-image.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Popup-image.aspx.designer.cs">
+      <DependentUpon>Popup-image.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RMJSY\aboutus_rmjsy.aspx.cs">
+      <DependentUpon>aboutus_rmjsy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\aboutus_rmjsy.aspx.designer.cs">
+      <DependentUpon>aboutus_rmjsy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\Apply_notification.aspx.cs">
+      <DependentUpon>Apply_notification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\Apply_notification.aspx.designer.cs">
+      <DependentUpon>Apply_notification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\Career_apply_online.aspx.cs">
+      <DependentUpon>Career_apply_online.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\Career_apply_online.aspx.designer.cs">
+      <DependentUpon>Career_apply_online.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\Default_RMJSY.aspx.cs">
+      <DependentUpon>Default_RMJSY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\Default_RMJSY.aspx.designer.cs">
+      <DependentUpon>Default_RMJSY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\list_of_generated_posts.aspx.cs">
+      <DependentUpon>list_of_generated_posts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\list_of_generated_posts.aspx.designer.cs">
+      <DependentUpon>list_of_generated_posts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\mission_and_vision.aspx.cs">
+      <DependentUpon>mission_and_vision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\mission_and_vision.aspx.designer.cs">
+      <DependentUpon>mission_and_vision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\Popup-image.aspx.cs">
+      <DependentUpon>Popup-image.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\Popup-image.aspx.designer.cs">
+      <DependentUpon>Popup-image.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\print-application.aspx.cs">
+      <DependentUpon>print-application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\print-application.aspx.designer.cs">
+      <DependentUpon>print-application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\Registration_process.aspx.cs">
+      <DependentUpon>Registration_process.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\Registration_process.aspx.designer.cs">
+      <DependentUpon>Registration_process.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\Result.aspx.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\Result.aspx.designer.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\RMJSY_MASTE.Master.cs">
+      <DependentUpon>RMJSY_MASTE.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\RMJSY_MASTE.Master.designer.cs">
+      <DependentUpon>RMJSY_MASTE.Master</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\success.aspx.cs">
+      <DependentUpon>success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\success.aspx.designer.cs">
+      <DependentUpon>success.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMJSY\Yojana.aspx.cs">
+      <DependentUpon>Yojana.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMJSY\Yojana.aspx.designer.cs">
+      <DependentUpon>Yojana.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main.Master" />
+    <Content Include="Maindmin\User.Master" />
+    <Content Include="Css\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Css\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Css\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Css\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Css\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="Css\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\core.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\list.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\path.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="Css\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="Css\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="Css\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="PDF\sanstha_certificate.pdf" />
+    <Content Include="PDF\sanstha_pen_card.pdf" />
+    <Content Include="PDF\Result.pdf" />
+    <Content Include="BLOCK_COORDINATOR\BlockUser.Master" />
+    <Content Include="PDF\second_result.pdf" />
+    <Content Include="PDF\result_latest.pdf" />
+    <None Include="Properties\PublishProfiles\JDMSS.pubxml" />
+    <Content Include="RMJSY\RMJSY_MASTE.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="album\" />
+    <Folder Include="Maindmin\img\" />
+    <Folder Include="RMJSY\album\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59876/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

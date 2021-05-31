@@ -1,0 +1,80 @@
+<div class="hom-glry-left-sec">
+                    <div class="hom-img-glry-sec">
+                        <div class="agileinfo-gallery-row">
+                           
+
+                            <div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+                                <a href="images/gallery/gal.png" class="imghvr-hinge-right figure">
+                                    <img src="images/gallery/gal.png" alt="" title="Find Your Dream Home" />
+                                    <div class="agile-figcaption">
+                                        <h4>Find Your Dream Home</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+                                <a href="images/gallery/gal1.png" class="imghvr-hinge-right figure">
+                                    <img src="images/gallery/gal1.png" alt="" title="Find Your Dream Home" />
+                                    <div class="agile-figcaption">
+                                        <h4>Find Your Dream Home</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+                                <a href="images/gallery/gal2.png" class="imghvr-hinge-right figure">
+                                    <img src="images/gallery/gal2.png" alt="" title="Find Your Dream Home" />
+                                    <div class="agile-figcaption">
+                                        <h4>Find Your Dream Home</h4>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+                                <a href="images/welcome-bg.jpg" class="imghvr-hinge-right figure">
+                                    <img src="images/welcome-bg.jpg" alt="" title="Find Your Dream Home" />
+                                    <div class="agile-figcaption">
+                                        <h4>Find Your Dream Home</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+                                <a href="images/gallery/gallery6.jpg" class="imghvr-hinge-right figure">
+                                    <img src="images/gallery/gallery6.jpg" alt="" title="Find Your Dream Home" />
+                                    <div class="agile-figcaption">
+                                        <h4>Find Your Dream Home</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+                                <a href="images/gallery/gallery7.jpg" class="imghvr-hinge-right figure">
+                                    <img src="images/gallery/gallery7.jpg" alt="" title="Find Your Dream Home" />
+                                    <div class="agile-figcaption">
+                                        <h4>Find Your Dream Home</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+                                <a href="images/gallery/gallery5.jpg" class="imghvr-hinge-right figure">
+                                    <img src="images/gallery/gallery5.jpg" alt="" title="Find Your Dream Home" />
+                                    <div class="agile-figcaption">
+                                        <h4>Find Your Dream Home</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+                                <a href="images/welcome-bg.jpg" class="imghvr-hinge-right figure">
+                                    <img src="images/welcome-bg.jpg" alt="" title="Find Your Dream Home" />
+                                    <div class="agile-figcaption">
+                                        <h4>Find Your Dream Home</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="clearfix"></div>
+                            <script src="js/simple-lightbox.min.js"></script>
+                            <script>
+                                $(function () {
+                                    var gallery = $('.agileinfo-gallery-row a').simpleLightbox({ navText: ['&lsaquo;', '&rsaquo;'] });
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>

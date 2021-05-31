@@ -1,0 +1,461 @@
+
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.top-menusec {
+    height: auto;
+    width: 100%;
+    padding: 10px 0px 3px 0px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+.logof {
+    height: auto;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+.mainlogo {
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+.mob-logo {
+    height: auto;
+    padding: 10px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+.ints-ul {
+    width: 100%;
+    text-align: right;
+}
+
+    .ints-ul li {
+        list-style-type: none;
+        display: initial;
+    }
+
+.menu-section {
+    height: auto;
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+.registration a:first-child {
+    border-left: 0;
+}
+
+.menubar {
+    float: left;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+}
+
+.menubar nav > ul {
+    padding: 20px 0px 25px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+    .menubar nav > ul > li {
+        width: auto;
+        letter-spacing: 0.3px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        line-height: 0;
+        position: relative;
+    }
+
+
+
+        .menubar nav > ul > li > a {
+            margin: 0px;
+            padding: 9px 8px;
+            font-size: 18px;
+            color: #000;
+            text-decoration: none;
+            border-radius: 50px;
+            display: inline-block;
+            text-transform: capitalize;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 20px;
+            letter-spacing: .5px;
+            font-weight: 600;
+            transition: all 500ms ease;
+            -moz-transition: all 500ms ease;
+            -webkit-transition: all 500ms ease;
+            -ms-transition: all 500ms ease;
+            -o-transition: all 500ms ease;
+        }
+
+            .menubar nav > ul > li > a:hover {
+                color: #fff;
+                background: #FF0D0D;
+                transition: .3s ease;
+            }
+
+/*=============== Dropdown ===================*/
+nav > ul ul {
+    position: absolute;
+    width: auto;
+    top: 60px;
+    z-index: 99999;
+    opacity: 0;
+    visibility: hidden;
+    min-width: 250px;
+    padding: 0px 0 0px 0px;
+    border-top: 3px solid #FF0D0D;
+    left: 0px;
+}
+
+    nav > ul ul li {
+        font-size: 14px;
+        padding: 0 20px;
+        text-transform: capitalize;
+        letter-spacing: normal;
+        display: table!important;
+        font-weight: 400;
+        background: #fff;
+        color: #000;
+        line-height: 35px;
+        width: 250px;
+    }
+
+        nav > ul ul li:before {
+            display: none;
+        }
+
+        nav > ul ul li a {
+            padding: 2px 0;
+            float: left;
+            width: 100%;
+            color: #000000;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            text-align: left;
+        }
+
+        nav > ul ul li:hover {
+            background: #FF0D0D;
+            color: #fff;
+        }
+
+        nav > ul ul li a:hover {
+            color: #fff;
+        }
+
+        nav > ul ul li:last-child > a {
+            border: 0;
+        }
+
+nav > ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+nav > ul ul ul {
+    left: 100%;
+    top: 0;
+    background: #f5f5f5;
+    min-width: 150px;
+    box-shadow: none;
+}
+
+    nav > ul ul ul li a {
+        border: 0;
+    }
+
+nav > ul ul li.has-children:before {
+    content: "\f105";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -10px;
+    font-family: fontawesome;
+    font-size: 14px;
+    color: inherit;
+}
+/*=============== Responsive Header ===================*/
+.responsive-header {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 9999999;
+    display: none;
+}
+
+    .responsive-header .topbar {
+        padding: 15px;
+    }
+
+        .responsive-header .topbar:after,
+        .responsive-header .topbar:before {
+            display: none;
+        }
+
+        .responsive-header .topbar span {
+            margin-right: 20px;
+        }
+
+.responsive-logobar {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 0px 2px;
+    border-bottom: 0px solid #192838;
+}
+
+.responsive-logo {
+    float: left;
+}
+
+.menu-button {
+    float: right;
+    width: 40px;
+    height: 40px;
+    text-align: right;
+    line-height: 33px;
+    color: #2aa0f7;
+    font-size: 23px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+    .menu-button:hover {
+        color: #2aa0f7;
+    }
+
+.responsive-menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #fff;
+    overflow: auto;
+    -webkit-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    -moz-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    -o-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); /* easeOutExpo */
+    -webkit-transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); /* easeOutExpo */
+}
+
+    .responsive-menu.slidein {
+        left: 0;
+        opacity: 1;
+    }
+
+    .responsive-menu ul {
+        float: left;
+        width: 100%;
+        padding: 0 30px;
+        margin: 0;
+    }
+
+        .responsive-menu ul li {
+            float: left;
+            width: 100%;
+            font-size: 13px;
+            font-family: 'Roboto Slab', serif;
+            border-bottom: 1px solid #c0cad0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 900;
+            margin: 0;
+            line-height: unset;
+            list-style-type: none;
+        }
+
+            .responsive-menu ul li:before {
+                display: none;
+            }
+
+            .responsive-menu ul li a {
+                float: left;
+                width: 100%;
+                color: #000;
+                padding: 15px 0px;
+                position: relative;
+                font-family: "Open Sans", sans-serif;
+                font-weight: normal;
+                text-transform: capitalize;
+                font-size: 15px;
+            }
+
+            .responsive-menu ul li.menu-item-has-children > a:before {
+                content: "\f067";
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                width: 10px;
+                height: 10px;
+                color: #504242;
+                font-family: fontawesome;
+                font-size: 15px;
+            }
+
+            .responsive-menu ul li ul {
+                display: none;
+                padding-left: 20px;
+                background: rgba(0,0,0,0.1);
+            }
+
+            .responsive-menu ul li:last-child {
+                border: 0;
+            }
+
+.close-menu {
+    float: right;
+    color: #0b88e0;
+    font-weight: 400;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    margin: 25px 25px 0px 0px;
+    font-size: 26px;
+    border-radius: 3px;
+    border: 2px solid #d80025;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/*------------------------Midea-----------------------------------*/
+@media (max-width:980px) {
+    header {
+        display: none!important;
+    }
+
+    .responsive-header {
+        display: block;
+    }
+}
+
+@media (max-width:767px) {
+
+    .responsive-header .topbar span {
+        float: none;
+        display: inline-block;
+        margin: 0 6px;
+    }
+
+    .responsive-header .topbar {
+        text-align: center;
+    }
+}
+
+/*-----------------------------Color--------------------------------------*/
+.button.active,
+.selectors-inner a.active,
+.course-bar span,
+.prog-icon span,
+.event-btn,
+.widget .about-widget li span,
+.edu-gallery,
+.pagination li a:hover,
+.pagination li a.active,
+.share-post > a:hover,
+.reply,
+.tagcloud > a:hover,
+.course-price,
+.touch ul li span,
+.layer4,
+.menu-button,
+.close-menu,
+.toggle-item > h2:before,
+.transparent-socials a:hover {
+    /*background-color: #01a9e9;*/
+}
+
+a:hover,
+a:active,
+a:focus,
+.topbar span > i,
+ul li:before,
+.title span,
+.button:hover,
+.explore-edu h2 i,
+.tab-content span,
+.parallax-title i,
+.parallax-title span,
+.side-title h2 i,
+.side-title span,
+.staff-detail span,
+.event-date span,
+.event-description > i,
+.loc,
+.post-detail span,
+.widget-title h5 i,
+.widget-title span,
+.widget li a:hover i.fa,
+.widget .about-widget li,
+.bottom-footer p a,
+.edu-service i,
+.edu-detail > i,
+.options li a.selected,
+.breadcrumbs li,
+.column-title i,
+.column-title h2 span,
+.date > span,
+.sub-title,
+.detail-page .meta li.meta-tags a,
+.author-detail > h5,
+.simple-title h2 span,
+.simple-title > i,
+.comment-name > i,
+.post-inner > span,
+.sidebar .widget li:hover > a,
+.video-widget > span,
+.course-info > span,
+.author-detail > span,
+.author-detail > h4 i,
+.event-intro-details > i,
+.member-intro-description > span,
+.personal-info li,
+.touch ul li p strong,
+.layer1,
+.layer2 span,
+.layer6,
+.simple-parallax-title > h2 span,
+.error-page > h1,
+.search-result > h5 span {
+    color: #01a9e9;
+}
+
+    .button:hover,
+    .course-bar span:before,
+    .course-bar span:after,
+    .course-price:before,
+    .course-price:after,
+    .event-btn:hover,
+    .options li a.selected:before,
+    .sidebar .widget li:hover:after,
+    .layer4 {
+        border-color: #fff;
+    }

@@ -1,0 +1,24 @@
+C:\Users\mukes\Downloads\jsdmss (1)\jsdmss\jsdmss\bin\jsdmss.dll
+C:\Users\mukes\Downloads\jsdmss (1)\jsdmss\jsdmss\bin\jsdmss.pdb
+C:\Users\mukes\Downloads\jsdmss (1)\jsdmss\jsdmss\obj\Debug\jsdmss.csprojResolveAssemblyReference.cache
+C:\Users\mukes\Downloads\jsdmss (1)\jsdmss\jsdmss\obj\Debug\jsdmss.dll
+C:\Users\mukes\Downloads\jsdmss (1)\jsdmss\jsdmss\obj\Debug\jsdmss.pdb
+E:\WorkProject\jsdmss\jsdmss\bin\jsdmss.dll
+E:\WorkProject\jsdmss\jsdmss\bin\jsdmss.pdb
+E:\WorkProject\jsdmss\jsdmss\obj\Debug\jsdmss.csprojResolveAssemblyReference.cache
+E:\WorkProject\jsdmss\jsdmss\obj\Debug\jsdmss.dll
+E:\WorkProject\jsdmss\jsdmss\obj\Debug\jsdmss.pdb
+M:\Project\JSDMSS-PROJECT\jsdmss\jsdmss\jsdmss\bin\jsdmss.dll
+M:\Project\JSDMSS-PROJECT\jsdmss\jsdmss\jsdmss\bin\jsdmss.pdb
+M:\Project\JSDMSS-PROJECT\jsdmss\jsdmss\jsdmss\obj\Debug\jsdmss.dll
+M:\Project\JSDMSS-PROJECT\jsdmss\jsdmss\jsdmss\obj\Debug\jsdmss.pdb
+E:\WorkProject\Mukesh\jsdmss\jsdmss\bin\jsdmss.dll
+E:\WorkProject\Mukesh\jsdmss\jsdmss\bin\jsdmss.pdb
+E:\WorkProject\Mukesh\jsdmss\jsdmss\obj\Debug\jsdmss.csprojResolveAssemblyReference.cache
+E:\WorkProject\Mukesh\jsdmss\jsdmss\obj\Debug\jsdmss.dll
+E:\WorkProject\Mukesh\jsdmss\jsdmss\obj\Debug\jsdmss.pdb
+M:\Project\JSDMSS-PROJECT\jsdmss\jsdmss\bin\jsdmss.dll
+M:\Project\JSDMSS-PROJECT\jsdmss\jsdmss\bin\jsdmss.pdb
+M:\Project\JSDMSS-PROJECT\jsdmss\jsdmss\obj\Debug\jsdmss.csprojResolveAssemblyReference.cache
+M:\Project\JSDMSS-PROJECT\jsdmss\jsdmss\obj\Debug\jsdmss.dll
+M:\Project\JSDMSS-PROJECT\jsdmss\jsdmss\obj\Debug\jsdmss.pdb

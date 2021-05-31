@@ -1,0 +1,87 @@
+﻿
+@media only screen and (max-width:800px) {
+    .container-small {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .padd-right {
+        padding-right: 15px !important;
+    }
+
+    .padd-left {
+        padding-left: 15px !important;
+    }
+
+    /*********************start***************************/
+
+    .carousel-control.left {
+        display: none;
+    }
+
+    .carousel-control.right {
+        display: none;
+    }
+
+    .slider-content {
+        display: none;
+    }
+
+    .line-bottom {
+        line-height: 0px;
+        font-size: 17px;
+    }
+
+    .parallax-second {
+        padding: 100px 0px 70px 0px;
+    }
+
+    .footer-down-iner p {
+        text-align: center;
+    }
+
+    .footer-down-iner2 {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .designer_link2 {
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .btn-access {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .ul-header {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .line-bottom:after {
+        bottom: 10px;
+    }
+
+    .contentbox {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .bg-black-222 {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .aboutus-pagetext-h2 {
+        font-size: 30px;
+        line-height: 33px;
+        text-align: center;
+    }
+    .aboutus-pagetext-ul li {
+        padding: 15px 0px 0px 0px;
+    }
+    .aboutus-page-bg {
+        padding: 40px 0px 40px 0px;
+    }
+}

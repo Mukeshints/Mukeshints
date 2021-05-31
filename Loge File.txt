@@ -1,0 +1,23 @@
+Project Name:- Jaisheela Devi Memorial Seva Sansthan
+Folder Name:-jsdmss.org
+Url:- jsdmss.org
+=======================================
+FTP ACCOUNT DETAIL
+-------------------
+host id:- 182.50.151.45 
+ftp user id:- jsdmssftp
+password:- 6i7C4gj@#20
+========================================================
+20/12/2020:- Shahnawaz make home page and career page
+25-12-2020 Mukesh - Create login page, registration and admin section
+26-12-2020  Mukesh - Create view registration page, registration details page.
+31-12-2020 Mukesh - Success page cretion and some bug fixes.
+05-01-2021 Shahnawaz work on other page and live on main domain
+17/01/2021 SHAHNAWAZ Work on commetti page and admin section 
+16/02/2021 Shahnawaz add result section
+02-03-2021 mukesh member registration module work
+03-03-2021 mukesh user section activation and deactivation code
+06-03-2021 Mukesh Work in Panchayat coordinator and Admin Section
+10-03-2021 Mukesh work in coordinator and admin module
+25-03-2021 Shahnawaz some change in coordinator and admin print page
+26-03-2021 mukesh bug correction in admin and block co-ordinator
